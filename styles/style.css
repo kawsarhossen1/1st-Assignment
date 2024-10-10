@@ -23,6 +23,15 @@
     color: rgb(13, 19, 33);
 }
 
+.banner-button {
+    margin-bottom: 45px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 21px 24px;
+}
+
 .common-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -56,14 +65,15 @@ main {
 
 .banner {
     background: url(../images/Hero-bg.png);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 24;
+    gap: 24px;
     padding: 0px;
     border: 2px dashed rgb(182, 180, 180);
+    background-size: cover;
 }
 
 .banner-image {
@@ -95,7 +105,7 @@ main {
 
 }
 
-.banner button {
+/* .banner button {
     width: 244px;
     height: 65px;
     margin-bottom: 45px;
@@ -109,7 +119,7 @@ main {
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
-}
+} */
 
 
 /* web development section styles */
@@ -262,20 +272,28 @@ main {
 .inspiration {
     margin-top: 90px;
     margin-bottom: 151px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 0px;
 }
 
 .inspiration-text p {
     margin: 24px 144px 48px 144px;
+
 }
 
-/* .inspiration-video {
+.inspiration-video {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     padding-top: 32px;
+    padding-bottom: 32px;
     width: 1140px;
-    
-} */
+
+
+}
 
 iframe {
     display: block;
@@ -283,6 +301,91 @@ iframe {
     border-radius: 16px;
     width: 1076px;
     height: 550px;
+}
 
+/* my current target section styles */
 
+.current-container {
+    margin-bottom: 111px;
+}
+
+.turget-text .common-title {
+    margin-bottom: 24px;
+}
+
+.turget-text .common-p {
+    text-align: center;
+
+}
+
+.current-target {
+    display: flex;
+    gap: 24px;
+}
+
+.target-item {
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-top: 48px;
+}
+
+.target-css {
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-top: 48px;
+}
+
+.target-js {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    margin-top: 48px;
+    padding: 40px;
+}
+
+.target-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.target-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.target-p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+
+}
+
+.target-item,
+.target-css,
+.target-js a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
 }
