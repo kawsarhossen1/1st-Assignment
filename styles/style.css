@@ -21,10 +21,36 @@
     letter-spacing: 0%;
     text-align: center;
     color: rgb(13, 19, 33);
+}
 
+.common-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
+.common-p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
 
 }
+
+/* main styles */
+main {
+    margin-left: 148px;
+    margin-right: 152px;
+}
+
 
 /* banner section styles */
 
@@ -85,13 +111,6 @@
     text-align: center;
 }
 
-/* main styles */
-/* main {
-    max-width: 1440px;
-    margin: 0 auto;
-    border-radius: 16px;
-    background: rgba(13, 19, 33, 0.02); 
-} */
 
 /* web development section styles */
 .web-development {
@@ -199,13 +218,15 @@
 .web-system-image {
     margin: 3px 13px 8px 97px;
 }
-.web-system-item{
+
+.web-system-item {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    
+
 }
+
 .web-system-text {
     display: flex;
     flex-direction: column;
@@ -235,4 +256,33 @@
     letter-spacing: 0%;
     text-align: left;
     margin: 16px 110px 32px 0px;
+}
+
+/* my inspration section styles */
+.inspiration {
+    margin-top: 90px;
+    margin-bottom: 151px;
+    text-align: center;
+}
+
+.inspiration-text p {
+    margin: 24px 144px 48px 144px;
+}
+
+/* .inspiration-video {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding-top: 32px;
+    width: 1140px;
+    
+} */
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 16px;
+    width: 1076px;
+    height: 550px;
+
+
 }
