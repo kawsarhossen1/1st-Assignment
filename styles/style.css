@@ -8,7 +8,7 @@
 
 /* shared style */
 .custom-btn {
-    box-sizing: border-box;
+
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     align-items: center;
@@ -20,6 +20,8 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    color: rgb(13, 19, 33);
+
 
 
 }
@@ -84,17 +86,24 @@
 }
 
 /* main styles */
-main {
+/* main {
+    max-width: 1440px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02); 
+} */
+
+/* web development section styles */
+.web-development {
+    /* margin: 97px 80px;
+    padding: 80px 97px 80px 97px; */
     max-width: 1440px;
     margin: 0 auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-}
-
-/* web development section styles */
-.web-development {
     margin: 97px 80px;
     padding: 80px 97px 80px 97px;
+    gap: 32;
 }
 
 .web-text {
@@ -172,6 +181,58 @@ main {
     margin-right: 108px;
 
 }
-.web-image{
+
+.web-image {
     margin: 3px 13px 8px 97px;
+}
+
+/* web system content styles */
+
+.web-system {
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.web-system-image {
+    margin: 3px 13px 8px 97px;
+}
+.web-system-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.web-system-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 48px;
+}
+
+.web-system-text h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 101px;
+}
+
+.web-system-text p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 110px 32px 0px;
 }
