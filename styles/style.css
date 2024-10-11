@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* font-family: "Azeret Mono", monospace; */
+
 }
 
 /* shared style */
@@ -105,32 +105,15 @@ main {
 
 }
 
-/* .banner button {
-    width: 244px;
-    height: 65px;
-    margin-bottom: 45px;
-    border-radius: 8px;
-    background: rgb(13, 19, 33);
-    color: aliceblue;
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
-} */
-
 
 /* web development section styles */
 .web-development {
-    max-width: 1440px;
     margin: 0 auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    margin: 97px 80px;
     padding: 80px 97px 80px 97px;
-    gap: 32;
+    margin-top: 74px;
+    margin-bottom: ;
 }
 
 .web-text {
@@ -471,6 +454,7 @@ iframe {
     background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
     margin-top: 49px;
     margin-bottom: 80px;
+}
 
 .support-item {
     padding: 64px 48px 64px 48px;
@@ -504,6 +488,8 @@ iframe {
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+    margin-left: 219px;
+    margin-right: 219px;
 
 }
 
@@ -547,4 +533,37 @@ iframe {
     text-align: center;
     padding: 20px;
     margin-right: 180px;
+}
+
+/* footer section styles */
+footer {
+    display: flex;
+    background-color: ;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+
+}
+
+footer h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.footer-img {
+    margin-top: 32px;
+}
+
+.footer-img a {
+    text-decoration: none;
+    margin-right: 24px;
 }
