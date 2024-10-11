@@ -399,9 +399,10 @@ iframe {
     margin-right: 144px;
 }
 
-.next-target-container{
+.next-target-container {
     gap: 24px;
 }
+
 .next-target-text p {
     margin-top: 24px;
     margin-bottom: 48px;
@@ -416,10 +417,13 @@ iframe {
     background: rgb(255, 255, 255);
     padding: 40px;
 }
-.node-item{
+
+.node-item {
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
+
 .next-text h3 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -455,4 +459,92 @@ iframe {
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
+}
+
+/* Support section styles */
+
+.support-container {
+    background-image: url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+    margin-top: 49px;
+    margin-bottom: 80px;
+
+.support-item {
+    padding: 64px 48px 64px 48px;
+}
+
+.support-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 0px;
+}
+
+.support-text h2 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-text p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.support-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+
+}
+
+.support-btn input {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: start;
+    padding: 20px;
+    margin-left: 180px;
+    width: 548px;
+
+}
+
+.support-btn button {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 20px;
+    margin-right: 180px;
 }
