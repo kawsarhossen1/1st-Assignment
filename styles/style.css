@@ -49,7 +49,7 @@
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
     opacity: 0.7;
 
 }
@@ -57,7 +57,7 @@
 /* main styles */
 main {
     margin-left: 148px;
-    margin-right: 152px;
+    margin-right: 148px;
 }
 
 
@@ -124,8 +124,6 @@ main {
 
 /* web development section styles */
 .web-development {
-    /* margin: 97px 80px;
-    padding: 80px 97px 80px 97px; */
     max-width: 1440px;
     margin: 0 auto;
     border-radius: 16px;
@@ -325,16 +323,16 @@ iframe {
 
 .target-item {
     border-radius: 16px;
-    padding: 40px;
     background: rgba(255, 76, 30, 0.05);
     margin-top: 48px;
+    padding: 40px;
 }
 
 .target-css {
     border-radius: 16px;
-    padding: 40px;
     background: rgba(0, 76, 232, 0.05);
     margin-top: 48px;
+    padding: 40px;
 }
 
 .target-js {
@@ -350,6 +348,7 @@ iframe {
     justify-content: center;
     align-items: flex-start;
     padding: 0px;
+
 }
 
 .target-title {
@@ -377,9 +376,77 @@ iframe {
 
 }
 
-.target-item,
-.target-css,
+.target-item a,
+.target-css a,
 .target-js a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* my next target section styles */
+.next-target-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 144px;
+    margin-right: 144px;
+}
+
+.next-target-container{
+    gap: 24px;
+}
+.next-target-text p {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.next-target-item {
+    display: flex;
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+.node-item{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.next-text h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.next-img {
+    margin-top: 27px;
+}
+
+.next-text p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.next-text a {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
